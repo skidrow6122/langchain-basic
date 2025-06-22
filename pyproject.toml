@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "langchain-basic"
+version = "0.1.0"
+description = ""
+authors = ["jeonhyeongjun <skidrow6122@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.13,<3.14"
+python-dotenv = "^1.1.0"
+openai = "^1.90.0"
+langchain-openai = "^0.3.24"
+langchain = "^0.3.26"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
